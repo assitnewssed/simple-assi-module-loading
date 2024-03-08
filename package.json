@@ -1,0 +1,42 @@
+{
+  "name": "simple-assi-module-loading",
+  "version": "1.0.0",
+  "homepage": "https://github.com/assitnewssed/simple-assi-module-loading.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assitnewssed/simple-assi-module-loading.git"
+  },
+  "description": "Simple module loading less animation engine",
+  "main": "src/module-loading.js",
+  "license": "MIT",
+  "author": "Assitnewssed",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "node build"
+  },
+  "bugs": {
+    "url": "https://github.com/assitnewssed/simple-assi-module-loading/issues"
+  },
+  "keywords": [
+    "module",
+    "loading",
+    "animation",
+    "transforms",
+    "SVG",
+    "canvas"
+  ],
+  "dependencies": {
+    "analsorhost-simple-bs": "^1.0.0",
+    "simple-assi-animation": "^1.0.0",
+    "node-loading": "^1.1.1"
+  },
+  "devDependencies": {
+    "gzip-size": "^4.1.0",
+    "pretty-bytes": "^4.0.2",
+    "rollup": "^0.53.2",
+    "rollup-plugin-buble": "^0.18.0",
+    "uglify-js": "^3.3.4"
+  }
+}
